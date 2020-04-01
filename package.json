@@ -1,0 +1,18 @@
+{
+  "name": "chart-friend",
+  "version": "1.0.0",
+  "description": "chat users and rooms application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node node_modules/nodemon/bin/nodemon.js server.js"
+  },
+  "author": "ravi choppari",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^2.11.1",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2",
+    "socket.io": "^2.3.0"
+  }
+}
